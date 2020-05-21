@@ -15,6 +15,7 @@ RUN mkdir -p /root/.ssh/ && \
 
 COPY .vimrc /root/
 COPY .zshrc /root/
+COPY .tmux.conf /root/
 
 WORKDIR /root/
 
