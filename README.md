@@ -17,6 +17,6 @@ ansible --version
 ## Run Docker container
 
 ```bash
-docker run -it --rm -v "$PWD":/ansible/code -w /ansible/code mjdk/ansible:2.7.10-ide 
+docker run -it --rm -v "$PWD":/ansible/code -w /ansible/code mjdk/ansible-ide:2.7.10
 ```
 
