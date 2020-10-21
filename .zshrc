@@ -100,4 +100,5 @@ source $ZSH/oh-my-zsh.sh
 
 # My customization
 neofetch
+python --version
 ansible --version
