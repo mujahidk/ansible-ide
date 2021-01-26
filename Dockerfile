@@ -10,9 +10,10 @@ RUN apt update && \
    chsh -s $(which fish)
 
 RUN mkdir -p /root/.ssh/ && \
-   mkdir -p /root/.aws
+   mkdir -p /root/.aws && \
+   mkdir -p /root/.config/nvim/
 
-COPY .vimrc /root/
+COPY .vimrc /root/.config/nvim/init.vim
 COPY .tmux.conf /root/
 
 WORKDIR /root/
