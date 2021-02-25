@@ -2,7 +2,7 @@
 
 > Ansible Development Environment with AWS CLI and other Tools
 
-## Python - **3.6.10**
+## Python - **3.7.10**
 
 ```
 python --version
@@ -17,6 +17,6 @@ ansible --version
 ## Run Docker container
 
 ```bash
-docker run -it --rm -v "$PWD":/ansible/code -w /ansible/code mjdk/ansible-ide
+docker run -it --rm -v "$PWD":/ansible/code -w /ansible/code mjdk/ansible-ide bash
 ```
 
