@@ -17,3 +17,4 @@ COPY .tmux.conf /root/
 
 WORKDIR /root/
 
+ENTRYPOINT ["bash"]
